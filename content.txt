@@ -1,0 +1,4 @@
+Class and Object (with examples )
+1.everything in python is an object ;;from all data structure to any data type
+2.function inside a class is called 'method'
+3.exmaple of method using chatbook
