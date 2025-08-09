@@ -1,4 +1,19 @@
 Class and Object (with examples )
 1.everything in python is an object ;;from all data structure to any data type
+
 2.function inside a class is called 'method'
+
 3.exmaple of method using chatbook
+
+4.self is the upcoming object 
+##object goes as an argument in all methods of the class,so when self is not used 
+##error : xyz methods takes 1 argument but 2 were given
+
+5.Attribute of the constructor class can be made from outside the class using the object
+example: obj.new_attribute_name="new_attribute_value"
+
+6.Encapsulation se complete hidding of the attribute is not possible
+
+7.Getter is used to access hidden attribute 
+
+8.Setter is used to set(change) the hidden attribute

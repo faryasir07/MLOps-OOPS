@@ -1,12 +1,22 @@
 class chatbook:
     #constructor : Already called when an object of the class is created
-    def __init__(self):
-        
+    def __init__(self):  #self is the upcoming object 
+                        ##object goes as an argument in all methods of the class,so when self is not used 
+                        #,error : xyz methods takes 1 argument but 2 were given
+        self.__name='Default Username'
         self.username=''
         self.password=''
         self.logged=False
         self.menu()
         
+
+    def get_name(self):
+        return self.__name
+    
+    def set_name(self,value):
+        self.__name=value
+        return self.__name
+    
     def menu(self):
         user_input=input('''
                     Welcome to Chatbook !! How would you like to proceed ?
@@ -69,4 +79,5 @@ class chatbook:
         self.menu()
     
 user=chatbook()
-# user.menu()
+print(user.get_name())
+print(user.set_name("Agent X"))
